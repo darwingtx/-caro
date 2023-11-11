@@ -1,4 +1,5 @@
 $(function () {
+  var promedio;
   $(document).ready(function () {
     $("#insertar").click(function () {
       var id = $("#id").val();
@@ -11,16 +12,16 @@ $(function () {
 
       $("table tbody").append(
         "<tr> <td> <img src='" +
-          tipoEst +
-          "'>" +
-          "</td> <td>" +
-          id +
-          "</td> <td>" +
-          asig +
-          "</td>" +
-          "<td>" +
-          sum / 3 +
-          "</td></tr>"
+        tipoEst +
+        "'>" +
+        "</td> <td>" +
+        id +
+        "</td> <td>" +
+        asig +
+        "</td>" +
+        "<td>" +
+        (sum / 3) +
+        "</td></tr>"
       );
     });
 
@@ -39,11 +40,24 @@ $(function () {
       });
 
       if (contador > 0) {
-        var promedio = campo3 / contador;
+        promedio = campo3 / contador;
         $("#resultadoPromedio").text("Promedio: " + promedio.toFixed(2));
       } else {
         $("#resultadoPromedio").text("No hay datos numéricos en la columna.");
       }
     });
-});
+
+    $("#resaltar").click(function () {
+      
+      if (promedio != 0) {
+
+        $("#tabla tr").each(function () {
+          console.log(parseFloat($(this).find('td').eq(3).text()));
+          if (parseFloat($(this).find('td').eq(3).text()) >= promedio) {
+            $(this).find('td').css("background-color", "red");
+          }
+        });
+      }
+    })
+  });
 });
