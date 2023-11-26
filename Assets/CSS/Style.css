@@ -8,14 +8,13 @@ header{
     width: 100px;
     height: 70px;
 }
-
 .person{
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 130px;
 }
 
 .Top{
-
+    margin-left: 30px;
     list-style-type: none;
     overflow: hidden;
     
@@ -30,7 +29,7 @@ header{
     color: white;
     text-align: center;
     margin-top: 5px;
-   
+    margin-left: 20px;
     padding: 14px;
     text-decoration: none;
 }
@@ -41,7 +40,7 @@ header{
 }
 .Buscar{
     top: 9px;
-    width: 800px;
+    width: 700px;
     margin-right: 10px;
     margin-left: 50px;
     height: 50px;
@@ -52,7 +51,7 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    text-decoration: none;
+   
   }
 
   .social-media a {
@@ -89,3 +88,4 @@ footer {
   margin-top: 15px;
   margin-left: 55px;
   }
+
