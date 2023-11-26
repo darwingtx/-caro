@@ -10,14 +10,13 @@ header{
     width: 100px;
     height: 70px;
 }
-
 .person{
     margin-top: 10px;
-    margin-left: 70px;
+    margin-left: 130px;
 }
 
 .Top{
-
+    margin-left: 30px;
     list-style-type: none;
     overflow: hidden;
     
@@ -32,7 +31,7 @@ header{
     color: white;
     text-align: center;
     margin-top: 5px;
-   
+    margin-left: 20px;
     padding: 14px;
     text-decoration: none;
 }
@@ -43,8 +42,7 @@ header{
 }
 .Buscar{
     top: 9px;
-    width: 800px;
-    margin-top: 5px;
+    width: 700px;
     margin-right: 10px;
     margin-left: 50px;
     height: 50px;
@@ -55,8 +53,20 @@ footer {
     display: flex;
     justify-content: space-between;
     padding: 20px;
-    text-decoration: none;
+   
   }
+
+footer a{
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.76);
+}
+
+footer h3{
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+}
 
   .social-media a {
     color: white;
@@ -92,3 +102,4 @@ footer {
   margin-top: 15px;
   margin-left: 55px;
   }
+
