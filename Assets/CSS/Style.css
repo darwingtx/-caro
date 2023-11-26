@@ -2,6 +2,8 @@ header{
     display: flex;
     background-color: #262626;
     height: 70px;
+    font-family: 'League Spartan', sans-serif;
+    font-size: 20px;
 }
 
 .Logo{
@@ -11,7 +13,7 @@ header{
 
 .person{
     margin-top: 10px;
-    margin-left: 100px;
+    margin-left: 70px;
 }
 
 .Top{
@@ -42,7 +44,8 @@ header{
 .Buscar{
     top: 9px;
     width: 800px;
+    margin-top: 5px;
     margin-right: 10px;
     margin-left: 50px;
-    height: 50px;
+    height: 30px;
 }
