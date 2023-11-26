@@ -1,0 +1,47 @@
+header{
+    display: flex;
+    background-color: #262626;
+    height: 70px;
+}
+
+.Logo{
+    width: 100px;
+    height: 70px;
+}
+.person{
+    margin-top: 10px;
+    margin-left: 130px;
+}
+
+.Top{
+    margin-left: 30px;
+    list-style-type: none;
+    overflow: hidden;
+    
+}
+
+.he{
+    float: left;
+    text-decoration: none;
+}
+.he a{
+    display: block;
+    color: white;
+    text-align: center;
+    margin-top: 5px;
+    margin-left: 20px;
+    padding: 14px;
+    text-decoration: none;
+}
+.he a:hover {
+    background-color: black;
+    color: #F57A3B;
+    padding-bottom: 16px;
+}
+.Buscar{
+    top: 9px;
+    width: 700px;
+    margin-right: 10px;
+    margin-left: 50px;
+    height: 50px;
+}
