@@ -8,13 +8,14 @@ header{
     width: 100px;
     height: 70px;
 }
+
 .person{
     margin-top: 10px;
-    margin-left: 130px;
+    margin-left: 100px;
 }
 
 .Top{
-    margin-left: 30px;
+
     list-style-type: none;
     overflow: hidden;
     
@@ -29,7 +30,7 @@ header{
     color: white;
     text-align: center;
     margin-top: 5px;
-    margin-left: 20px;
+   
     padding: 14px;
     text-decoration: none;
 }
@@ -40,7 +41,7 @@ header{
 }
 .Buscar{
     top: 9px;
-    width: 700px;
+    width: 800px;
     margin-right: 10px;
     margin-left: 50px;
     height: 50px;
