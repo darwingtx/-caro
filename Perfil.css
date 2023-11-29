@@ -1,6 +1,10 @@
 body{
-  font-family: sans-serif;
-  margin: 0;
+    display: inline;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
 }
 header{
   display: flex;
@@ -76,29 +80,6 @@ nav a:hover{
   }
   
  }
-
-
-
-
-
-
-
-
-
-
-
-
-
-/* 
-body {
-  display: inline;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  margin: 0;
-  font-family: Arial, sans-serif;
-}
-
 #profile-container {
   margin-top: 100px;
   text-align: center;
@@ -106,7 +87,7 @@ body {
   border-radius: 15px;
   padding: 20px;
   width: 450px;
-  height: 400px;
+  height: 550px;
 }
 #button {
   text-align: center;
@@ -129,4 +110,20 @@ body {
   background-color: #3498db;
   color: #fff;
   cursor: pointer;
-} */
+} 
+
+.persona{
+  display: flex;
+  padding: 15px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+
+}
+.contacto{
+  display: flex;
+ padding: 30px;
+  margin-top: 25px;
+  align-items: center;
+  justify-content: space-between;
+}
