@@ -3,14 +3,14 @@ body {
 }
 
 .encabezado {
-    background: linear-gradient(rgb(0, 0, 0), #E9550C);
+    background: linear-gradient(rgb(0, 0, 0) 200px, #E9550C );
+    padding: 50px;
 }
 
 .enc {
     padding-top: 50px;
     align-items: center;
     text-align: center;
-
 }
 
 .enc img {
@@ -23,4 +23,38 @@ body {
     width: 200px;
     height: 600px;
     
+}
+#mitad{
+    background: linear-gradient( #E9550C,rgb(0, 0, 0) );
+    
+    
+}
+.detalles{
+    text-align: center;
+    display:flex;
+
+}
+.detalles img{
+    width: 70px;
+    height: 70px;
+}
+
+.exp{
+    text-align: center;
+    
+}
+.exp2{
+    align-items: center;
+    display: flex;
+}
+.h{
+    
+    border-color: #E9550C;
+}
+.card{
+    
+}
+.final{
+    text-align: center;
+    background: linear-gradient( rgb(0, 0, 0),#F23838 );
 }
