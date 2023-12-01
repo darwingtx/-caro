@@ -2,7 +2,7 @@ body{
     display: inline;
     align-items: center;
     justify-content: center;
-    height: 100vh;
+    height: 1000vh;
     margin: 0;
     font-family: Arial, sans-serif;
 }
@@ -15,7 +15,13 @@ header{
   align-items: center;
   padding: 15px;
 }
-
+.Buscar {
+  top: 9px;
+  width: 650px;
+  margin-right: 10px;
+  margin-left: 30px;
+  height: 50px;
+}
 .logo img{
 height: 70px;
 width: 100px;
@@ -50,15 +56,7 @@ h3{
   display: flex;
  
 }
-/* .Buscar {
-  top: 9px;
-  align-items: center;
-  width: 700px;
-  margin-right: 10px;
-  margin-left: 10px;
-  height: 50px;
-  
-} */
+
 
 
 nav a{
@@ -78,52 +76,37 @@ nav a:hover{
   header{
     flex-direction: column;
   }
+}
+  footer {
+    margin-top: 700px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
   
- }
-#profile-container {
-  margin-top: 100px;
-  text-align: center;
-  border: 2px solid #ccc;
-  border-radius: 15px;
-  padding: 20px;
-  width: 450px;
-  height: 550px;
-}
-#button {
-  text-align: center;
-
-}
-
-#profile-image {
-  width: 150px;
-  height: 150px;
-  border-radius: 50%;
-  object-fit: cover;
-  margin-bottom: 10px;
-}
-
-#edit-button {
- 
-  padding: 10px 20px;
-  border: none;
-  border-radius: 5px;
-  background-color: #3498db;
-  color: #fff;
-  cursor: pointer;
-} 
-
-.persona{
-  display: flex;
-  padding: 15px;
-  margin-top: 25px;
-  align-items: center;
-  justify-content: space-between;
-
-}
-.contacto{
-  display: flex;
- padding: 30px;
-  margin-top: 25px;
-  align-items: center;
-  justify-content: space-between;
-}
+  footer a {
+    font-family: 'Roboto', sans-serif;
+    text-decoration: none;
+    font-size: 15px;
+    color: rgba(255, 255, 255, 0.76);
+  }
+  
+  footer h3 {
+    font-family: 'League Spartan', sans-serif;
+    color: white;
+  }
+  
+  footer ul{
+  list-style-type: none ;
+  }
+  
+  
+  #logofooter {
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 55px;
+    }
+  
