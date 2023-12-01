@@ -5,6 +5,7 @@ body{
     height: 1000vh;
     margin: 0;
     font-family: Arial, sans-serif;
+    background-image: linear-gradient(rgba(255, 102, 0, 0.705),rgba(255, 0, 0, 0.842));
 }
 header{
   display: flex;
@@ -49,9 +50,7 @@ margin-right: 20px;
   
 }
 
-h3{
-  color: white;
-}
+
 .menu{
   display: flex;
  
@@ -77,6 +76,43 @@ nav a:hover{
     flex-direction: column;
   }
 }
+/* ------------------------------------------------ */
+.hoja{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.registro{
+font-size: 40px;
+font-family: 'League Spartan', sans-serif;
+color: white;
+
+}
+.titulo{
+  display: grid;
+  place-items: center;
+  margin-top: 30px;
+  font-size: 65px;
+  font-family: 'League Spartan', sans-serif;
+  color: white;
+  
+}
+section{
+  font-family: 'League Spartan', sans-serif;
+  color: white;
+  margin-right: 300px;
+}
+.iconocentral{
+  margin-top: 50px;
+width: 500px;
+height: 100%;
+margin-left: 200px;
+}
+#E-mail{
+  width: 250px;
+  
+}
+/* ----------------------------------------------------------- */
   footer {
     margin-top: 700px;
     background-color: black;

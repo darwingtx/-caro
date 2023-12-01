@@ -2,6 +2,7 @@ body {
   display: grid;
   min-height: 100vh;
   grid-template-rows: auto 1fr auto;
+  
 
 }
 header{
@@ -123,9 +124,7 @@ list-style-type: none ;
   margin-bottom: 5px;
 }
 
-.logo img {
-  height: 50px;
-}
+
 
 #logofooter {
   width: 50px;
