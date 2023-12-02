@@ -1,5 +1,6 @@
 body {
     color: white;
+    background: linear-gradient(black, #E9550C, black, #F23838);
 }
 
 .encabezado {
@@ -20,13 +21,13 @@ body {
 }
 
 .carousel-item img {
-    width: 200px;
-    height: 600px;
-    
+    width: 300px;
+    height: 400px;
+    margin-left: 40%;
 }
 #mitad{
     background: linear-gradient( #E9550C,rgb(0, 0, 0) );
-    
+    height: auto;
     
 }
 .detalles{
@@ -51,10 +52,20 @@ body {
     
     border-color: #E9550C;
 }
-.card{
-    
-}
+
+
 .final{
+    height: 500px;
     text-align: center;
     background: linear-gradient( rgb(0, 0, 0),#F23838 );
 }
+
+button{
+    color: white;
+    background-color: #E9550C;
+    border-radius: 10px;
+    height: 40px;
+    width: 160px;
+    border-color: #E9550C;
+}
+
