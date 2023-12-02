@@ -56,9 +56,6 @@ h3{
   display: flex;
  
 }
-
-
-
 nav a{
   text-decoration: none;
   color: white;
@@ -78,30 +75,24 @@ nav a:hover{
   }
   
  }
- /* ------------------------------ */
+ /* ---------------------------------------------------- */
 #profile-container {
-  margin-top: 100px;
+  margin-top: 50px;
   text-align: center;
   border: 2px solid #F57A3B;
   border-radius: 15px;
   padding: 20px;
-  width: 450px;
-  height: 550px;
+  width: 350px;
+  height: 420px;
 }
-#button {
+.button {
   margin-top: 10px;
   text-align: center;
   border: #A65F58;
-  background: linear-gradient(to right, rgb(253,175,19),rgba(240, 173, 40, 0.945));
+  background: linear-gradient(to right, rgb(253,175,19),rgba(241, 178, 53, 0.932));
   border-radius: 50px;
   width: 150px;
   height: 40px;
-  color: #FCE5D8;
-  font-family: 'League Spartan', sans-serif;
-  font-size: 20px;
-}
-#button a{
-  text-decoration: none;
   color: #FCE5D8;
   font-family: 'League Spartan', sans-serif;
   font-size: 20px;
@@ -148,7 +139,6 @@ nav a:hover{
   justify-content: center;
   align-items: center;
   font-family: 'League Spartan', sans-serif;
-/* Establece la altura al 100% del viewport */
 }
 
 .titulo {
@@ -162,11 +152,20 @@ nav a:hover{
 a img{
   width: 150px;
   height: 150px;
-
-
 }
-
-/* -------------------------------------------------------------- */
+section{
+    font-family: 'League Spartan', sans-serif;
+  }
+  .clasee{
+    border: 2px solid #F57A3B;
+    border-radius: 10px;
+    height: 30px;
+    width: 200px;
+  }
+  .perfil{
+    margin-top: 70px;
+  }
+/* -------------------------------- */
 footer {
   margin-top: 20px;
   background-color: black;
