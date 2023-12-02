@@ -88,7 +88,16 @@ nav a:hover{
   height: 550px;
 }
 #button {
+  margin-top: 10px;
   text-align: center;
+  border: #A65F58;
+  background: linear-gradient(to right, rgb(253,175,19),rgba(241, 178, 53, 0.623));
+  border-radius: 50px;
+  width: 150px;
+  height: 40px;
+  color: #FCE5D8;
+  font-family: 'League Spartan', sans-serif;
+  font-size: 20px;
 
 }
 
