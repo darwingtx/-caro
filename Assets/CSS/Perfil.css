@@ -133,14 +133,12 @@ nav a:hover{
   margin-top: 25px;
   align-items: center;
   justify-content: space-between;
+  flex-direction: column;
 
 }
 .contacto{
-  display: flex;
- padding: 30px;
-  margin-top: 25px;
-  align-items: center;
-  justify-content: space-between;
+  display: inline;
+
 }
 .container {
   display: flex;
