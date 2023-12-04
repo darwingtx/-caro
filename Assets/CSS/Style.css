@@ -72,13 +72,13 @@ background-color: black;
 color: #F57A3B;
 padding-bottom: 16px;
 }
-@media (max-width:500px){
-header{
-  flex-direction: column;
-}
+ @media (max-width:500px){
+  header{
+    flex-direction: column;
+  }
+  
+ }
 
-}
-/* ------------------------------ */
 /* Estilo del Scroll horizontal */
 .d-flex::-webkit-scrollbar {
   width: 8px;     /* Tamaño del scroll en vertical */
@@ -100,9 +100,11 @@ header{
 .d-flex::-webkit-scrollbar-thumb:active {
   background-color: #999999;
 }
-/* Fin Estilo del Scroll horizontal */
 
-/* -------------------------------------------------------------- */
+
+
+
+
 footer {
 margin-top: 20px;
 background-color: black;
