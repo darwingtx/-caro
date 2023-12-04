@@ -18,35 +18,35 @@
 
 <body>
   <header>
-    <div class="logo">
-      <a href="./index.html">
-        <img class="logo-img" src="./Assets/Images/Logo.png">
-      </a>
-    </div>
+        <div class="logo">
+            <a href="./index.html">
+                <img class="logo-img" src="./Assets/Images/Logo.png">
+            </a>
+        </div>
 
-    <div class="Buscar input-group mb-3">
-      <span class="input-group-text">
-        <i class="bi bi-search"></i>
-      </span>
-      <input type="text" class="inpu form-control" placeholder="Buscar..." />
-    </div>
+        <div class="Buscar input-group mb-3">
+            <span class="input-group-text">
+                <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="inpu form-control" placeholder="Buscar..." />
+        </div>
 
 
-    <nav class="menu">
-      <a href="#" class="peliculas">
-        <h5>Peliculas</h5>
-      </a>
-      <a href="#" class="Watch">
-        <h5>Watch List</h5>
-      </a>
-    </nav>
-    <div class="icono">
-      <a href="./Perfil1.html" class="menu-img"><img src="./Assets/Images/cuenta.png"></a>
-      <a href="./Configuracion.html"><img src="./Assets/Images/configuracion.png" alt=""></a>
+        <nav class="menu">
+            <a href="#" class="peliculas">
+                <h5>Peliculas</h5>
+            </a>
+            <a href="./Wacth List.html" class="Watch">
+                <h5>Watch List</h5>
+            </a>
+        </nav>
+        <div class="icono">
+            <a href="./Perfil1.html" class="menu-img"><img src="./Assets/Images/cuenta.png"></a>
+            <a href="./Configuracion.html"><img src="./Assets/Images/configuracion.png" alt=""></a>
 
-    </div>
+        </div>
 
-  </header>
+    </header>
   <h1>Configuracion</h1>
 
   <div class="profile container" id="profile-container">
@@ -58,7 +58,7 @@
         <button class="buttones">Claro</button>
       </div>
       <p><strong>Cerrar Sesion</strong> </p>
-      <button class="buttones">Cerrar Sesion</button>
+      <button class="buttones" id="Sesion">Cerrar Sesion</button>
 
     </div>
 
@@ -92,7 +92,7 @@
         <div id="links" class="col-xs-12 col-md-6 col-lg-2">
           <h3>Contenido</h3>
           <ul>
-            <li><a href="#">WATCH LIST</a></li>
+            <li><a href="./Wacth List.html">WATCH LIST</a></li>
             <li><a href="#">PELICULAS</a></li>
 
           </ul>
@@ -120,7 +120,8 @@
     </div>
   </footer>
 
-
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./Assets/JS/CerrarSesion.js"></script>
 </body>
 
 </html>

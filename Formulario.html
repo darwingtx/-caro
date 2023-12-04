@@ -9,10 +9,11 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto:wght@300&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto:ital,wght@1,300&display=swap"
         rel="stylesheet">
-    <link rel="stylesheet" href="./Assets/CSS/Styleestatico.css">
-    <title>Nosotros</title>
+    <title>Añadir Película</title>
+    <link rel="stylesheet" href="./Assets/CSS/StyleG.css">
 </head>
 
 <body>
@@ -30,7 +31,6 @@
             <input type="text" class="inpu form-control" placeholder="Buscar..." />
         </div>
 
-
         <nav class="menu">
             <a href="#" class="peliculas">
                 <h5>Peliculas</h5>
@@ -42,79 +42,43 @@
         <div class="icono">
             <a href="./Perfil1.html" class="menu-img"><img src="./Assets/Images/cuenta.png"></a>
             <a href="./Configuracion.html"><img src="./Assets/Images/configuracion.png" alt=""></a>
-
         </div>
-
     </header>
 
     <main class="container">
-        <section class="about">
-            <h2>¿Por qué el nombre Ícaro?</h2>
-            <p>
-                El nombre del aplicativo es dado por un mito griego, Ícaro, un hombre que voló muy cerca del sol con
-                alas hechas de cera,
-                las cuales se derritieron y este cayó al mar. Le damos este nombre a nuestra página web, pues en algún
-                momento las
-                personas pueden llegar a buscar tanto algo de su gusto, que pierden el tiempo el cual tenían destinado
-                para ver su
-                película, vuelan tan alto que se les deshacen las alas, ÍCARO será la solución a esta problematización.
-            </p>
-        </section>
-
-        <section class="who-we-are">
-            <h2>¿Quiénes somos?</h2>
-            <p>
-                Somos un equipo comprometido con el disfrute de los momentos en grupo, solos, o en cualquier ocasión que
-                amerite
-                entretenimiento con el séptimo arte.
-            </p>
-        </section>
-
-        <section class="vision">
-            <h2>Visión</h2>
-            <p>
-                Ser reconocidos como el destino digital líder para los amantes del cine, proporcionando una experiencia
-                integral que
-                va más allá de la simple recomendación de películas. Nos esforzamos por ser la referencia confiable y
-                apasionante en
-                el mundo del séptimo arte, donde los cinéfilos encuentran inspiración, información precisa y una
-                comunidad vibrante
-                para compartir su pasión por las historias en pantalla grande.
-            </p>
-        </section>
-
-        <section class="mission">
-            <h2>Misión</h2>
-            <p>
-                Facilitar la experiencia cinematográfica de nuestros usuarios al ofrecer reseñas validadas por la
-                comunidad, catálogos
-                curados y un espacio vibrante para la interacción cinéfila. Nuestra misión es ahorrar tiempo a los
-                amantes del cine
-                al proporcionarles una plataforma integral y apasionante.
-            </p>
-        </section>
-
-        <section class="team-icaro">
-            <h2>Equipo Ícaro</h2>
-            <p>
-                Somos un pequeño grupo de desarrolladores conformados por:
-            </p>
-            <div class="row fotos">
-                <div class="col img" style="background-image: url(./Assets/Images/IMG-20230927-WA0001.jpg);">
-
-                </div>
-
-                <div class="col img" style="background-image: url(./Assets/Images/IMG_20230602_161310.jpg);"></div>
-            
-            </div>
-            <div class="row nom">
-                <div class="col"><h3>Andrés Álvarez</h3>
+        <div class="row">
+            <div class="col">
+                <h1>Añadir Película</h1>
+                <form id="formularioPelicula">
+                    <div class="mb-3">
+                        <label for="nombrePelicula" class="form-label">Nombre de la Película</label>
+                        <input type="text" class="form-control" id="nombrePelicula" name="nombrePelicula" required>
                     </div>
-                <div class="col"><h3>Darwin Castaño</h3></div>
-            </div>
-        </section>
-    </main>
 
+                    <div class="mb-3">
+                        <label for="sinopsis" class="form-label">Sinopsis</label>
+                        <textarea class="form-control" id="sinopsis" name="sinopsis" rows="4" required></textarea>
+                    </div>
+
+                    <div class="mb-3">
+                        <label for="puntuacion" class="form-label">Puntuación</label>
+                        <select class="form-select" id="puntuacion" name="puntuacion" required>
+                            <option selected disabled value="">Seleccione una puntuación</option>
+                            <option value="1">1 Palomitas</option>
+                            <option value="2">2 Palomitas</option>
+                            <option value="3">3 Palomitas</option>
+                            <option value="4">4 Palomitas</option>
+                            <option value="5">5 Palomitas</option>
+                        </select>
+                    </div>
+
+                    <!-- Otros campos del formulario según sea necesario -->
+
+                    <button type="submit" class="btn btn-primary">Añadir Película</button>
+                </form>
+            </div>
+        </div>
+    </main>
 
     <footer>
         <div class="container-fluid">
@@ -170,9 +134,8 @@
         </div>
       </footer>
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
-        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <!-- Puedes incluir aquí tus scripts adicionales si es necesario -->
 </body>
 
 </html>

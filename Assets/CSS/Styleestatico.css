@@ -56,6 +56,9 @@ h1{
 h3{
     font-family: 'League Spartan', sans-serif;
 }
+h2{
+  font-family: 'League Spartan', sans-serif;
+}
 
 footer h3{
   color: white;
@@ -65,7 +68,12 @@ footer h3{
  
 }
 
+.container{
+  margin-top: 60px;
+}
+
 .container img{
+
     width: 287px;
     height: 370px;
 }
@@ -128,3 +136,4 @@ nav a:hover{
 .fotos{
   margin-top: 50px;
 }
+
