@@ -1,27 +1,26 @@
 body{
-    display: inline;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    margin: 0;
-    font-family: Arial, sans-serif;
+  display: inline;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  margin: 0;
+  font-family: Arial, sans-serif;
 }
 header{
-  display: flex;
-  min-height: 70px;
-  background-color: #262626;
-  justify-content: space-between;
-  font-family: 'League Spartan', sans-serif;
-  align-items: center;
-  padding: 15px;
-
+display: flex;
+min-height: 70px;
+background-color: #262626;
+justify-content: space-between;
+font-family: 'League Spartan', sans-serif;
+align-items: center;
+padding: 15px;
 }
 .Buscar {
-  top: 9px;
-  width: 650px;
-  margin-right: 10px;
-  margin-left: 30px;
-  height: 50px;
+top: 9px;
+width: 650px;
+margin-right: 10px;
+margin-left: 30px;
+height: 50px;
 }
 .logo img{
 height: 70px;
@@ -30,152 +29,111 @@ margin-right: 20px;
 
 }
 .icono img{
-  height: 70px;
-  width: 70px;
-  align-items: center;
-  padding: 15px;
-  justify-content: space-between;
-  
+height: 70px;
+width: 70px;
+align-items: center;
+padding: 15px;
+justify-content: space-between;
+
 }
 .logo img:hover{
-  background-color: black;
-  color: #F57A3B;
-  padding-bottom: 16px;
-  }
+background-color: black;
+color: #F57A3B;
+padding-bottom: 16px;
+}
 
 .icono img:hover{
-  background-color: black;
-  color: #F57A3B;
-  padding-bottom: 16px;
-  
+background-color: black;
+color: #F57A3B;
+padding-bottom: 16px;
+
 }
 
-h1{
-    font-family: 'League Spartan', sans-serif;
-}
 h3{
-    font-family: 'League Spartan', sans-serif;
-}
-
-footer h3{
-  color: white;
+color: white;
 }
 .menu{
-  display: flex;
- 
+display: flex;
+
 }
 
-.container img{
-    width: 260px;
-    height: 370px;
-}
 
 
 nav a{
-  text-decoration: none;
-  color: white;
-  font-weight: 600;
-  padding: 30px;
-  align-items: center;
-  justify-content: space-between;
+text-decoration: none;
+color: white;
+font-weight: 600;
+padding: 30px;
+align-items: center;
+justify-content: space-between;
 }
 nav a:hover{
-  background-color: black;
-  color: #F57A3B;
-  padding-bottom: 16px;
+background-color: black;
+color: #F57A3B;
+padding-bottom: 16px;
 }
- @media (max-width:500px){
-  header{
-    flex-direction: column;
-  }
-}
-  footer {
-    margin-top: 70px;
-    background-color: black;
-    color: white;
-    display: flex;
-    justify-content: space-between;
-    padding: 20px;
-  }
-  
-  footer a {
-    font-family: 'Roboto', sans-serif;
-    text-decoration: none;
-    font-size: 15px;
-    color: rgba(255, 255, 255, 0.76);
-  }
-  
-  footer h3 {
-    font-family: 'League Spartan', sans-serif;
-    color: white;
-  }
-  
-  footer ul{
-  list-style-type: none ;
-  }
-  
-video{
-    width: 700px;
-
-}
-h2{
-    font-family: 'League Spartan', sans-serif;
+@media (max-width:500px){
+header{
+  flex-direction: column;
 }
 
-main{
-    margin-top: 60px;
-
+}
+/* ------------------------------ */
+/* Estilo del Scroll horizontal */
+.d-flex::-webkit-scrollbar {
+  width: 8px;     /* Tamaño del scroll en vertical */
+  height: 8px;    /* Tamaño del scroll en horizontal */
+  display: display;  /* Ocultar scroll */
+}
+.d-flex::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
 }
 
-.row{
-    margin-bottom: 80px;
+/* Cambiamos el fondo y agregamos una sombra cuando esté en hover */
+.d-flex::-webkit-scrollbar-thumb:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+/* Cambiamos el fondo cuando esté en active */
+.d-flex::-webkit-scrollbar-thumb:active {
+  background-color: #999999;
+}
+/* Fin Estilo del Scroll horizontal */
+
+/* -------------------------------------------------------------- */
+footer {
+margin-top: 20px;
+background-color: black;
+color: white;
+display: flex;
+justify-content: space-between;
+padding: 20px;
+}
+
+footer a {
+font-family: 'Roboto', sans-serif;
+text-decoration: none;
+font-size: 15px;
+color: rgba(255, 255, 255, 0.76);
+}
+
+footer h3 {
+font-family: 'League Spartan', sans-serif;
+color: white;
+}
+
+footer ul{
+list-style-type: none ;
 }
 
 
 #logofooter {
-    width: 50px;
-    height: 50px;
-    margin-top: 15px;
-    margin-left: 55px;
-    }
-
-.palomitas{
-    display: flex;
-}
-
-.palomitas img{
-    width: 50px;
-    height: 50px;
-}
-
-#palomita1 img{
-    width: 2px;
-    height: 2px;
+width: 50px;
+height: 50px;
+margin-top: 15px;
+margin-left: 55px;
 }
 
 
-.inputd{
-
-    border: 2px solid #F57A3B;
-    border-radius: 15px;
-    padding: 20px;
-}
-.mi-tabla {
-    background-color: white; /* Color de fondo principal */
-    color: black; /* Color del texto */
-}
-
-.mi-tabla thead th {
-    background-color: #F57A3B; /* Color de fondo del encabezado */
-    border-left: 12px; 
-    border-right: 15px;  
-}
-
-button{
-    color: white;
-    background-color: #E9550C;
-    border-radius: 10px;
-    height: 40px;
-    width: 160px;
-    border-color: #E9550C;
-}
