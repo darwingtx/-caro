@@ -34,7 +34,7 @@
             <a href="#" class="peliculas">
                 <h5>Peliculas</h5>
             </a>
-            <a href="#" class="Watch">
+            <a href="./Wacth List.html" class="Watch">
                 <h5>Watch List</h5>
             </a>
         </nav>
@@ -109,10 +109,9 @@
         </div>
 
         <div class="row">
-            
             <div class="col-8">
                 <div class="table-responsive">
-                    <table class="table mi-tabla">
+                    <table class="table mi-tabla" id="comentarioTabla">
                         <thead>
                             <tr>
                                 <th scope="col">Nombre</th>
@@ -121,33 +120,31 @@
                             </tr>
                         </thead>
                         <tbody>
-                            <!-- Aquí deberías agregar tus filas de datos -->
+                            <!-- Aquí se agregarán las filas de comentarios desde JavaScript -->
                         </tbody>
                     </table>
                 </div>
-                
             </div>
             <div class="col inputd">
                 <div class="form-floating mb-3">
-                  <input
-                    type="text"
-                    class="form-control" name="formId1" id="formId1" placeholder="">
-                  <label for="formId1">Comentario</label>
-                  
-                  <div class="mb-3">
-                    <label for="" class="form-label">Puntuacion</label>
-                    <select class="form-select form-select-lg" name="" id="">
-                        <option selected>Select one</option>
-                        <option value="">1 Palomitas</option>
-                        <option value="">2 Palomita</option>
-                        <option value="">3 Palomita</option>
-                        <option value="">4 Palomita</option>
-                        <option value="">5 Palomita</option>
-                    </select>
-                  </div>
-                  <button>Publicar</button>
+                    <input
+                        type="text"
+                        class="form-control" name="formId1" id="formId1" placeholder="Comentario">
+                    <label for="formId1">Comentario</label>
+                    <div class="mb-3">
+                        <label for="puntuacion" class="form-label">Puntuación</label>
+                        <select class="form-select form-select-lg" name="puntuacion" id="puntuacion">
+                            <option selected>Select one</option>
+                            <option value="1">1 Palomitas</option>
+                            <option value="2">2 Palomita</option>
+                            <option value="3">3 Palomita</option>
+                            <option value="4">4 Palomita</option>
+                            <option value="5">5 Palomita</option>
+                        </select>
+                    </div>
+                    <button id="publicarBtn">Publicar</button>
+                </div>
             </div>
-            
         </div>
     </main>
 
@@ -205,6 +202,9 @@
 
         </div>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./Assets/JS/comentarios.js"></script>
 </body>
 
 </html>
