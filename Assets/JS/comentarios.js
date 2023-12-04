@@ -6,6 +6,10 @@ $(document).ready(function () {
     });
 });
 
+function obtenerNombrePeliculaActual() {
+    return $('#nombre').text(); // Cambia esto con tu lógica real
+}
+
 function agregarComentario() {
     var usuarioActual = JSON.parse(localStorage.getItem('usuarioActual'));
     var nombreUsuario = usuarioActual.nombre;
@@ -14,6 +18,7 @@ function agregarComentario() {
 
     if (nombreUsuario && comentario.trim() !== '' && puntuacion !== 'Select one') {
         var nuevoComentario = {
+            nombreP: obtenerNombrePeliculaActual(),
             nombre: nombreUsuario,
             comentario: comentario,
             puntuacion: puntuacion
@@ -35,20 +40,23 @@ function agregarComentario() {
 
 function cargarComentarios() {
     var comentariosGuardados = JSON.parse(localStorage.getItem('comentarios')) || [];
-    var tablaComentario = $('#comentarioTabla tbody');
+    var nombrePeliculaActual = obtenerNombrePeliculaActual();
+    var comentariosPelicula = comentariosGuardados.filter(function (comentario) {
+        return comentario.nombreP == nombrePeliculaActual;
+    });
 
-    comentariosGuardados.forEach(function (comentario) {
-        // Crear una fila para el comentario
+    var tablaComentario = $('#comentarioTabla tbody');
+    tablaComentario.empty(); // Limpiar la tabla antes de cargar los comentarios
+
+    comentariosPelicula.forEach(function (comentario) {
         var fila = `<tr><td>${comentario.nombre}</td><td>${comentario.comentario}</td><td>`;
         
-        // Agregar imágenes de palomitas según la puntuación
         for (var i = 0; i < comentario.puntuacion; i++) {
             fila += `<img src="./Assets/Images/palomitas-de-maiz.png" alt="">`;
         }
 
         fila += `</td></tr>`;
 
-        // Agregar la fila a la tabla
         tablaComentario.append(fila);
     });
 }
