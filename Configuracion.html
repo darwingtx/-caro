@@ -16,7 +16,7 @@
   <link rel="stylesheet" href="./Assets/CSS/Configuracion.css">
 </head>
 
-<body>
+<body data-bs-theme="light">
   <header>
         <div class="logo">
             <a href="./index.html">
@@ -54,8 +54,8 @@
     <div class="persona">
       <p><strong>Modo Oscuro</strong> </p>
       <div>
-        <button class="buttones">Oscuro</button>
-        <button class="buttones">Claro</button>
+        <button class="buttones" id="oscuro">Oscuro</button>
+        <button class="buttones" id="claro">Claro</button>
       </div>
       <p><strong>Cerrar Sesion</strong> </p>
       <button class="buttones" id="Sesion">Cerrar Sesion</button>
@@ -121,6 +121,7 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./Assets/JS/CambiarThema.js"></script>
   <script src="./Assets/JS/CerrarSesion.js"></script>
 </body>
 
