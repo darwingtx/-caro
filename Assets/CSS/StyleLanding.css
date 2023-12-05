@@ -1,71 +1,281 @@
 body {
-    color: white;
-    background: linear-gradient(black, #E9550C, black, #F23838);
-}
-
-.encabezado {
-    background: linear-gradient(rgb(0, 0, 0) 200px, #E9550C );
-    padding: 50px;
-}
-
-.enc {
-    padding-top: 50px;
-    align-items: center;
-    text-align: center;
-}
-
-.enc img {
-    width: 250px;
-    height: 150px;
-    margin-bottom: 40px;
-}
-
-.carousel-item img {
-    width: 300px;
-    height: 400px;
-    margin-left: 40%;
-}
-#mitad{
-    background: linear-gradient( #E9550C,rgb(0, 0, 0) );
-    height: auto;
-    
-}
-.detalles{
-    text-align: center;
-    display:flex;
-
-}
-.detalles img{
-    width: 70px;
-    height: 70px;
-}
-
-.exp{
-    text-align: center;
-    
-}
-.exp2{
-    align-items: center;
-    display: flex;
-}
-.h{
-    
-    border-color: #E9550C;
-}
-
-
-.final{
-    height: 500px;
-    text-align: center;
-    background: linear-gradient( rgb(0, 0, 0),#F23838 );
-}
-
-button{
-    color: white;
-    background-color: #E9550C;
+    background-image: linear-gradient(black, orangered, black);
+  }
+  .Agregar{
+    background: black;
+    border: 1px solid black;
     border-radius: 10px;
-    height: 40px;
-    width: 160px;
-    border-color: #E9550C;
+    margin-top: -50px;
+    width: 100%;
+  }
+  .Agregar:hover{
+    background-color: rgb(34, 30, 30);
+  }
+  .Agregar i{
+    color: red
+  }
+  .ImagenTitulo{
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .ImagenTitulo p{
+    color: white;
+    font-family: sans-serif;
+    font-size: 60px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+  }
+  .ImagenTitulo img{
+    margin-top: 10px;
+    width: 280px;
+    border-radius: 10px;
+    margin-bottom: 40px;
+  }
+
+.sc{
+  display: none;
+  position: absolute;
+  margin-left: 34%;
+  background-color: black;
+  border-radius: 10px;
+  height: 340px;  
+  border: 1px solid orangered;
+}
+.ContenidoEx{
+  margin-left: 40px;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+.Agregado{
+  color: white;
+}
+.AgregadoB{
+  background-color: orangered;
 }
 
+#Salir{
+  background-color: orangered;
+  position: absolute;
+  height: 30px;
+  width: 30px;
+  top: -40px;
+  right: 10px;
+  font-size: 15px;
+}
+  
+  .CatalogoContenedor {
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    position: relative;
+  }
+
+  .ContenidoCatalogo {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+  }
+
+  .ImagenesCatalogo {
+    min-width: 25%;
+    box-sizing: border-box;
+  }
+  .ImagenesCatalogo img{
+    width: 100%;
+    height: 500px;
+  }
+
+  .FuncionamientoCarrusel {
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+  }
+
+  .Funcionamiento-btn {
+    cursor: pointer;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+  }
+
+  .Buscar{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+  .Buscar input{
+    width: 400px;
+    height: 40px;
+    text-align: left;
+    margin-left: 32%;
+  }
+  .Buscar span{
+    background-color: rgb(116, 43, 43);
+    color: white;
+  }
+  .PostBuscar{
+    margin-top: 50px;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    font-family: sans-serif;
+  }
+  .informacion{
+    margin-top: 50px;
+    display: inline-flex;
+    margin-right: 10%;
+    margin-left: 10%;
+    width: 80%;
+    margin-top: 50px;
+  }
+  .PrimerI{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 50%;
+  }
+  .PrimerI img{
+    width: 110px;
+    margin-bottom: 20px;
+  }
+  .Com{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+    width: 60%;
+  }
+  .Com img{
+    width: 110px;
+    margin-bottom: 20px;
+  }
+  .Titulo{
+    font-size: 30px;
+    color: white;
+  }
+  .Titulo1{
+    font-size: 25px;
+    color: white;
+  }
+
+
+  /* Carrusel Comentarios */
+.Comentarios-container {
+  position: relative;
+  max-width: 1000px;
+    margin: auto;
+    margin-top: 100px;
+  overflow: hidden;
+  background-color: black;
+  border-radius: 10px;
+  text-align: center;
+  border: 1px solid black;
+  border:2px solid orangered;
+  margin-bottom: 50px;
+}
+.Comentarios-container h4{
+  color: white;
+  padding-bottom: 20px;
+  border-bottom: 2px solid orangered;
+
+}
+.slides {
+  display: flex;
+  transition: transform 0.5s ease-in-out; 
+}
+.slide {
+  min-width: 50%;
+}
+.Conte{
+  border-left: 2px solid orangered;
+}
+.slide2 {
+  min-width: 100%;
+}
+.slide p{
+  color: white;
+  margin-left: 40px;
+  margin-right: 40px;
+}
+.slide h6{
+  color: white;
+}
+#Cm2{
+  margin-top: 20px;
+  color: white;
+}
+.slider-nav {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.slider-nav button{
+  width: 20px;
+  height: 20px;
+  background-color: #ddd;
+  margin: 0 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  border-radius: 1000px;
+}
+
+.slider-nav button:hover {
+  background-color: #555;
+  color: white;
+}
+
+
+
+
+.Unete{
+  text-align: center;
+  color:white;
+}
+.Unete button{
+  margin-top: 50px;
+  border-radius: 10px;
+  background-color: orangered;
+  width: 300px;
+  height: 50px;
+  color: white;
+  font-size: 25px;
+  margin-bottom: 100px;
+}
+.Unete button:hover{
+  background-color: rgb(235, 88, 31);
+}
+.Equipo{
+  margin-left: 20%;
+  margin-right: 20%;
+  width: 60%;
+  text-align: center;
+  display: inline-flex;
+  margin: 0 50px;
+}
+.Equipos{
+  margin-top: 50px;
+  width: 60%;
+  font-size: 30px;
+}
+.Equipo img{
+  width: 250px;
+  height: 250px;
+  border-radius: 250px;
+  background-color: white;
+  border: 1px solid orangered;
+}
+.Redes{
+  margin-top: 100px;
+  text-align: center;
+  font-size: 35px;
+  color: white;
+  margin-bottom: 50px;
+}
+.Redes img{
+  width: 80px;
+  margin: 0 20px;
+}
