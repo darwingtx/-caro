@@ -52,26 +52,27 @@
     <h2>Perfil de Usuario</h2>
     <img id="profile-image" src="./Assets/Images/cuenta.png" alt="Imagen de perfil">
 
-    <button class="button" id="cambiarfoto">Cambiar foto</button>
+    
+    <input accept="image/*" type="file" multiple>
   </div>
   <div class="profile container" id="profile-container">
 
     <div>
       <section class="section">
         <h4 class="encabezado">Nombre</h4>
-        <input type="text" class="clasee" id="" placeholder="Quentin">
+        <input type="text" class="clasee" id="nombre" placeholder="Quentin">
 
         <h4 class="encabezado">Apellido</h4>
-        <input type="text" class="clasee" id="" placeholder="Tarantino">
+        <input type="text" class="clasee" id="apellido" placeholder="Tarantino">
 
         <h4 class="encabezado">Nombre de usuario</h4>
 
-        <input type="text" class="clasee" id="" placeholder="Quentin_Tarantino">
+        <input type="text" class="clasee" id="user" placeholder="Quentin_Tarantino">
         <h4 class="encabezado">E-mail</h4>
 
         <input type="email" class="clasee" id="E-mail" placeholder="Quentin_Tarantino007@icaro.com">
         <h4 class="encabezado">Pais</h4>
-        <input type="text" class="clasee" id="" placeholder="Colombia">
+        <input type="text" class="clasee" id="pais" placeholder="Colombia">
 
       </section>
 
@@ -82,20 +83,6 @@
   <div class="container">
     <button class="button" id="button">Guardar Perfil</button>
   </div>
-
-  <div class="container">
-    <h1 class="tituloh1">Mis Watch List</h1>
-    <div>
-      <h3 class="titulo">De todo un poco</h3>
-      <a href=""> <img class="img" src="./Assets/IMG_20230602_161310.jpg" alt=""></a>
-
-    </div>
-
-
-
-
-
-
   </div>
 
   <footer>
@@ -153,6 +140,7 @@
   </footer>
 
   <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <script src="./Assets/JS/editarPerfil.js"></script>
   <script src="./Assets/JS/CambiarThema.js"></script>
 </body>
 
