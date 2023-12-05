@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@600&family=Roboto:ital,wght@1,300&display=swap"
+        rel="stylesheet">
+    <title>Catalogo Peliculas</title>
+    <link rel="stylesheet" href="./Assets/CSS/Style.css">
+</head>
+
+<body data-bs-theme="light">
+    <header>
+        <div class="logo">
+            <a href="./index.html">
+                <img class="logo-img" src="./Assets/Images/Logo.png">
+            </a>
+        </div>
+
+        <div class="Buscar input-group mb-3">
+            <span class="input-group-text">
+                <i class="bi bi-search"></i>
+            </span>
+            <input type="text" class="inpu form-control" placeholder="Buscar..." />
+        </div>
+
+
+        <nav class="menu">
+            <a href="./AgregarPelicula.html" class="peliculas">
+                <h5>Peliculas</h5>
+            </a>
+            <a href="./Wacth List.html" class="Watch">
+                <h5>Watch List</h5>
+            </a>
+        </nav>
+        <div class="icono">
+            <a href="./Perfil1.html" class="menu-img"><img src="./Assets/Images/cuenta.png"></a>
+            <a href="./Configuracion.html"><img src="./Assets/Images/configuracion.png" alt=""></a>
+
+        </div>
+
+    </header>
+
+
+    <div class="container">
+
+        <!-- Titulo Tendencia -->
+        <hr style="border: #6e2c00 2px solid" />
+        <div class="row">
+            <div class="col">
+                <h4>Ultimas del mes</h4>
+            </div>
+        </div>
+        <!-- Fin Titulo Tendencia -->
+        <!-- Contenedor de Tendencia -->
+        <div class="container-xxl px-2 py-2">
+            <div class="d-flex overflow-x-scroll px-2 py-2">
+                <div class="px-2 py-2 border border-2">
+                    <a href="./Pelicula.html">
+                        <img width="200px;" height="300px;" height="300px;"
+                            src="./Assets/Images/Peliculas/oppenheimer.jpg" alt="" />
+                    </a>
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <a href="./PeliculaFlash.html">
+                        <img width="200px;" height="300px;" src="./Assets/Images/Flash-698849219-large.jpg" alt="" />
+
+                    </a>
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <a href="./PeliculaTortugas.html">
+                        <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/TOTUGAS.jpg" alt="" />
+
+                    </a>
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/starswars.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/msmarvel.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/hgjhjh.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/l.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/hgjhjh.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/hansolo.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/bdk.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/aven.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/UN6NC7QUSNHHTFSRSNR4CB35EY.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Contenedor de Tendencia -->
+        <!-- Titulo Comedia -->
+        <hr style="border: #6e2c00 2px solid" />
+        <div class="row">
+            <div class="col">
+                <h4>Comedia</h4>
+            </div>
+        </div>
+        <!-- Fin Titulo Comedia -->
+        <!-- Contenedor de Comedia -->
+        <div class="container-xxl px-2 py-2">
+            <div class="d-flex overflow-x-scroll px-2 py-2">
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/3073538.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;"
+                        src="./Assets/Images/Peliculas/aErase_una_vez_en_Hollywood-735160977-mmed.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/blackswan.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;"
+                        src="./Assets/Images/Peliculas/Criminales_a_la_vista-692324459-large.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/Enola_Holmes-862602767-large.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/Gups.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/pf.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/shanshi.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/starswars.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/thor3.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/UN6NC7QUSNHHTFSRSNR4CB35EY.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/WALL_AaE-973488527-large.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Fin Contenedor de Comedia -->
+        <!-- Titulo Animada -->
+
+
+        <hr style="border: #6e2c00 2px solid" />
+        <div class="row">
+            <div class="col">
+                <h4>Animada</h4>
+            </div>
+        </div>
+        <!-- Contenedor de Animada -->
+        <div class="container-xxl px-2 py-2">
+            <div class="d-flex overflow-x-scroll px-2 py-2">
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/0504030 (1).jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/Dragon_poster.JPG.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/Flash-698849219-large.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;"
+                        src="./Assets/Images/Peliculas/aErase_una_vez_en_Hollywood-735160977-mmed.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/image.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/joker.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/Nimona_poster.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/shanshi.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/starswars.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;"
+                        src="./Assets/Images/Peliculas/Super_Mario_Bros_La_pelaicula-521125124-large.jpg" alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/UN6NC7QUSNHHTFSRSNR4CB35EY.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="px-2 py-2 border border-2">
+                    <img width="200px;" height="300px;" src="./Assets/Images/Peliculas/WALL_AaE-973488527-large.jpg"
+                        alt="" />
+                    <div class="row text-center">
+                        <div class="col ms-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/anadir.png" alt="" />
+                            </a>
+                        </div>
+                        <div class="col me-4 p-2">
+                            <a href="#">
+                                <img width="50px;" src="./Assets/Images/Peliculas/claqueta-de-cine.png" alt="" />
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- ----------- -->
+        <div class="row">
+            <img src="" alt="">
+            <button>Añadir Pelicula</button>
+        </div>
+    </div>
+    <footer>
+        <div class="container-fluid">
+            <div class="row">
+
+                <div id="mediasocial" class="col-xs-12 col-md-6 col-lg-3">
+                    <div>
+                        <img src="./Assets/Images/instagram.png" alt="50px" width="50px" />
+                        <img src="./Assets/Images/youtube.png" alt="50px" width="50px" />
+                        <img src="./Assets/Images/gorjeo.png" alt="50px" width="50px" />
+                    </div>
+                    <div class="logo">
+                        <img id="logofooter" src="./Assets/Images/icono icaro.png" />
+                    </div>
+                </div>
+
+                <div id="links" class="col-xs-12 col-md-6 col-lg-2">
+                    <h3>USUARIO</h3>
+                    <ul>
+                        <li><a href="./nosotros.html">PERFIL</a></li>
+                        <li><a href="./Wacth List.html">MIS WATCH LIST</a></li>
+                    </ul>
+                </div>
+
+                <div id="links" class="col-xs-12 col-md-6 col-lg-2">
+                    <h3>Contenido</h3>
+                    <ul>
+                        <li><a href="./Wacth List.html">WATCH LIST</a></li>
+                        <li><a href="#">PELICULAS</a></li>
+
+                    </ul>
+                </div>
+
+                <div id="links" class="col-xs-12 col-md-6 col-lg-2">
+                    <h3>ICARO</h3>
+                    <ul>
+                        <li><a href="./nosotros.html">NOSOTROS</a></li>
+                        <li><a href="#">PREGUNTAS FRECUENTES</a></li>
+
+                    </ul>
+                </div>
+
+                <div id="links" class="col-xs-12 col-md-6 col-lg-1">
+                    <ul>
+                        <li><a href="./Registro.html">
+                                <h3>Registrarse</h3>
+                            </a></li>
+                    </ul>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <script src="./Assets/JS/CambiarThema.js"></script>
+</body>
+
+</html>
