@@ -2,7 +2,7 @@ $(document).ready(function () {
     // Obtener los datos del usuario almacenados en localStorage
     var usuarioActual = JSON.parse(localStorage.getItem('usuarioActual'));
 
-    // Verificar si hay datos de usuario almacenados
+    
     if (usuarioActual) {
         var s = usuarioActual.pais
         // Mostrar los datos del usuario en los elementos correspondientes
@@ -14,7 +14,6 @@ $(document).ready(function () {
         $('.contacto p:nth-child(2)').html('<strong>País:</strong> ' + usuarioActual.pais);
         console.log(usuarioActual.pais)
     } else {
-        // Redirigir al usuario a la página de inicio de sesión si no hay datos de usuario almacenados
         window.location.href = './Inicio.html';
     }
 });

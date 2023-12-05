@@ -7,7 +7,7 @@ $(document).ready(function () {
 });
 
 function obtenerNombrePeliculaActual() {
-    return $('#nombre').text(); // Cambia esto con tu lógica real
+    return $('#nombre').text(); 
 }
 
 function agregarComentario() {
